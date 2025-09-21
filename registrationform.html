@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>
+        Details of Users
+    </h1>
+    <form><fieldset>
+             <legend>Personal Information</legend><br><br><br>
+        <label>First Name</label>
+        <input type="text" id="name" required><br><br>
+        <label>Middle Name (Optional)</label>
+        <input type="text" id="name" optional><br><br>
+        <label>Last Name</label>
+        <input type="text" id="name" required><br><br>
+        <label>Email ID</label><br>
+        <input type="email" id="email"><br><br>
+        <label>Contact Number(this will be hidden)</label><br>
+        <input type="password" id="Contact"><br><br>
+        <label>Gender</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female">Female <br>
+        <input type="radio" id="Male" name="Gender" value="Male">Male <br><br>
+        <label>Birthday</label><br>
+        <input type="date" id="Birthday" name="Birthday"><br><br>
+         <form action="/action_page.php"
+        oninput="x.value=(parseInt(m1.value)+parseInt(m2.value)+parseint(m3.value))/3">
+        <label>Favorite City</label><br>
+        <select name="City" id="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option><br><br>
+            <input type="submit">
+     </fieldset></form>
+</body>
+</html>
